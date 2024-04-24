@@ -19,11 +19,13 @@ class Nissan(Car):
     def horse_powers(self):
         return 200
 
- class Kia(Car):
-        price = 1800000
 
-        def horse_powers(self):
-            return 300
+class Kia(Car):
+    price = 800000
+
+    def horse_powers(self):
+        return 300
+
 
 car = Car()
 print(f'Цена авто: {car.price}')
